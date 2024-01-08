@@ -11,6 +11,8 @@
 		325D31382B4ABE340038BB66 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325D31372B4ABE340038BB66 /* ContentView.swift */; };
 		325D313A2B4ABE350038BB66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 325D31392B4ABE350038BB66 /* Assets.xcassets */; };
 		325D313D2B4ABE350038BB66 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 325D313C2B4ABE350038BB66 /* Preview Assets.xcassets */; };
+		325D31452B4AC1B10038BB66 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325D31442B4AC1B10038BB66 /* Home.swift */; };
+		325D31472B4AC6670038BB66 /* PagingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325D31462B4AC6670038BB66 /* PagingIndicator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		325D31372B4ABE340038BB66 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		325D31392B4ABE350038BB66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		325D313C2B4ABE350038BB66 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		325D31442B4AC1B10038BB66 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		325D31462B4AC6670038BB66 /* PagingIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingIndicator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 		325D31342B4ABE340038BB66 /* Activity Indicators */ = {
 			isa = PBXGroup;
 			children = (
+				325D31432B4AC16E0038BB66 /* View */,
+				325D31482B4AC6760038BB66 /* Helpers */,
 				325D31352B4ABE340038BB66 /* Activity_IndicatorsApp.swift */,
 				325D31372B4ABE340038BB66 /* ContentView.swift */,
 				325D31392B4ABE350038BB66 /* Assets.xcassets */,
@@ -65,6 +71,22 @@
 				325D313C2B4ABE350038BB66 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		325D31432B4AC16E0038BB66 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				325D31442B4AC1B10038BB66 /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		325D31482B4AC6760038BB66 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				325D31462B4AC6670038BB66 /* PagingIndicator.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +160,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				325D31382B4ABE340038BB66 /* ContentView.swift in Sources */,
+				325D31452B4AC1B10038BB66 /* Home.swift in Sources */,
 				325D31362B4ABE340038BB66 /* Activity_IndicatorsApp.swift in Sources */,
+				325D31472B4AC6670038BB66 /* PagingIndicator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
